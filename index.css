@@ -21,6 +21,7 @@ img {
   width: 100%;
   max-width: 390px;
   border-radius: 10px;
+  box-sizing: border-box;
 }
 .intro h1 {
   font-family: "Young Serif", serif;
@@ -42,6 +43,10 @@ img {
   padding-top: 0.1px;
   padding-bottom: 0.1px;
   border-radius: 10px;
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 .prep h5 {
   color: hsl(332, 51%, 32%);
@@ -111,7 +116,10 @@ ol li {
   padding-left: 10px;
 }
 .instructions ol {
-  width: 350px;
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 
 td {
