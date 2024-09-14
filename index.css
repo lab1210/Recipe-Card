@@ -23,12 +23,7 @@ img {
   border-radius: 10px;
   box-sizing: border-box;
 }
-.intro {
-  width: 100%;
-  max-width: 380px;
-  margin: 0 auto;
-  box-sizing: border-box;
-}
+
 .intro h1 {
   font-family: "Young Serif", serif;
   font-weight: 400;
@@ -41,6 +36,10 @@ img {
   font-weight: 400;
   color: hsl(30, 10%, 34%);
   line-height: 12px;
+  width: 100%;
+  max-width: 380px;
+  margin: 0 auto;
+  box-sizing: border-box;
 }
 .prep {
   background-color: hsl(330, 100%, 98%);
