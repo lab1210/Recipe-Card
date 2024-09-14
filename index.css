@@ -19,8 +19,14 @@ img {
   background-color: hsl(0, 0%, 100%);
   display: block;
   width: 100%;
-  max-width: 390px;
+  max-width: 420px;
   border-radius: 10px;
+  box-sizing: border-box;
+}
+.intro {
+  width: 100%;
+  max-width: 380px;
+  margin: 0 auto;
   box-sizing: border-box;
 }
 .intro h1 {
@@ -34,7 +40,6 @@ img {
   font-size: 0.6rem;
   font-weight: 400;
   color: hsl(30, 10%, 34%);
-  width: 380px;
   line-height: 12px;
 }
 .prep {
